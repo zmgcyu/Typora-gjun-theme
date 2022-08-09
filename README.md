@@ -12,6 +12,6 @@
 4. Close and reopen Typora and select `Theme` → `github-jun.css` from the menu bar.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/77498498/174301969-f38ed98e-1a68-49f6-852a-d9695a020040.png)
+![image](image/v2.png)
 
 

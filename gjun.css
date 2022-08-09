@@ -7,7 +7,7 @@
     --highlight-color: red;         /* 高亮文本前景色（红色） */
     --highlightbg-color: yellow;    /* 高亮文本背景色（黄色） */
     --code-color: #ff3502;          /* 行内代码前景色（红色） */
-    --codebg-color: #f8f5ec; 	    /* 行内代码背景色（淡红） */
+    --codebg-color: #f8f5ec; /* 行内代码背景色（淡红） */
 }
 
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
@@ -234,7 +234,7 @@ mark {
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 u {

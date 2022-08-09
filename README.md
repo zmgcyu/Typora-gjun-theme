@@ -1,4 +1,4 @@
-# Typora-theme-github_jun
+# Typora-gjun-theme
 - a green-style Typora theme,which is based on github-theme. 
 - [中文](README_CN.md)
 

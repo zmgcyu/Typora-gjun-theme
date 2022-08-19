@@ -4,10 +4,12 @@
     --titlebefore-color: #00c4b6;   /* 各级标题点缀颜色（绿色） */
     --body-color: #000000;          /* 文本颜色（黑色） */
     --a-color: #00a0a0;             /* 超链接颜色 */
+    --hr-color:#1ba784;             /* 分割线颜色 */
+    --tableth-bg-color: #d6f3ff;    /* 表头背景色 */
     --highlight-color: red;         /* 高亮文本前景色（红色） */
     --highlightbg-color: yellow;    /* 高亮文本背景色（黄色） */
     --code-color: #ff3502;          /* 行内代码前景色（红色） */
-    --codebg-color: #f8f5ec; /* 行内代码背景色（淡红） */
+    --codebg-color: #f8f5ec;        /* 行内代码背景色（淡红） */
 }
 
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
@@ -220,7 +222,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: var(--titlebefore-color);
+    background-color: var(--hr-color);
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -236,6 +238,8 @@ mark {
     margin: 0 2px;
     letter-spacing: 1px;
 }
+
+/* 下划线 */
 
 u {
     border-bottom: 3px solid red;
@@ -257,15 +261,19 @@ ul:last-child,
 ol:last-child {
     margin-bottom: 0;
 }
+
+/* 引用 */
 blockquote {
-    border-left: 6px solid rgb(65 235 135);
-    padding: 0 15px;
-    color: #000;
-    background-color: rgb(200 236 200 / 50%);
+        border-left: 6px solid #12aa9c;
+        padding: 0 10px;
+        color: #000;
+        background-color: #41b34940;
 }
+
 blockquote blockquote {
     padding-right: 0;
 }
+
 table {
     padding: 0;
     word-break: initial;
@@ -282,6 +290,7 @@ thead {
 table th {
     font-weight: bold;
     border: 1px solid #dfe2e5;
+    background-color: var(--tableth-bg-color);
     border-bottom: 0;
     margin: 0;
     padding: 6px 13px;

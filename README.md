@@ -12,6 +12,23 @@
 4. Close and reopen Typora and select `Theme` → `gjun.css` from the menu bar.
 
 ## Screenshots
-![image](image/v2.png)
+![image](image/v3.png)
 
+## History
+### version 1.0
+1. Revised the style of titles at all levels.
+2. Revised the style of quote.
+3. Revised the style of underline.
 
+### version 2.0
+1. Enriched the style of the secondary title.
+2. Revised the style of highmark.
+3. Changed the color of quote's border-left.
+4. Revised the style of code block.
+5. Revised the style of horizon.
+
+### version 3.0
+1. Changed the color of quote's border-left.
+2. Revised the style of hyperlinks.
+3. Changed the color of horizon.
+4. Changed background color of table header.

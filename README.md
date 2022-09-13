@@ -15,19 +15,19 @@
 ![image](image/v3.png)
 
 ## History
-### version 1.0
+### 2022.7.17
 1. Revised the style of titles at all levels.
 2. Revised the style of quote.
 3. Revised the style of underline.
 
-### version 2.0
+### 2022.8.9
 1. Enriched the style of the secondary title.
 2. Revised the style of highmark.
 3. Changed the color of quote's border-left.
 4. Revised the style of code block.
 5. Revised the style of horizon.
 
-### version 3.0
+### 2022.8.19
 1. Changed the color of quote's border-left.
 2. Revised the style of hyperlinks.
 3. Changed the color of horizon.
